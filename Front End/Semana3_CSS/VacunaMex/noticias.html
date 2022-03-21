@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fontawesome6Libreria/css/all.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>VacunaMex</title>
+</head>
+<body>
+    <header class="header">
+        <div class="barra contenedor">
+            <div class="logo">
+                <p>VacunaMex</p>
+            </div>
+            <nav class="navegacion">
+                <a href="info.html">Información</a>
+                <a href="educacion.html">Educación</a>
+                <a href="noticias.html">Noticias</a>
+                <a href="regulaciones.html">Regulaciones</a>
+                <div class="boton-nav">
+                    <a href="agendar.html">Agendar Cita</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="cabecera">
+        <div class="cb-1 contenedor">
+            <h1>Las noticias por el mundo</h1>
+            <p>El mejor sitio para poder agendar tu vacuna y tener un mayor control de tu salud, solo para ti y tus seres queridos.</p>
+            <div class="etiquetas">                
+                <p><i class="fa-solid fa-shield-blank"></i>La mejor protección en tu vida</p>
+                <p><i class="fa-solid fa-star"></i> Vacunas de calidad </p>
+            </div>
+            <div class="etiqueta">
+                <p><i class="fa-solid fa-clock"></i>Trae tu cartilla de vacunación</p>
+            </div>
+
+        </div>
+        <div class="cb-2">
+        </div>
+    </section>
+    <div class="banner collapse navbar-collapse" id="navbarCollapse">
+        <div class="cnt-ban ms-auto mx-lg-auto py-0 flex-container">
+            <p class="title-bann"><i class="fa-solid fa-location-dot"></i> 
+            Ubicación</p>
+            <select name="location" id="location" class="custom-select">
+                <option value="cdmx">Ciudad de México</option>
+                <option value="edomex">Estado de México</option>
+                <option value="chiapas">Zacatecas</option>
+                <option value="aguascalientes">Aguascalientes</option>
+                <option value="nuevo leon">Nuevo León</option>
+            </select>
+            <!--
+            <p class="content-bann">Zacatecas</p>
+            -->
+        </div>
+        <div class="cnt-ban">
+            <p class="title-bann"><i class="fa-solid fa-calendar-days"></i>Fecha</p>
+            <input type="date" id="v-date" name="v-date" class="custom-select"
+            value="2022-03-18"
+            min="2022-01-01" max="2022-12-31">
+            <!--
+            <p class="content-bann">08 July 2021</p>
+            -->
+        </div>
+        <div class="cnt-ban">
+            <p class="title-bann"><i class="fa-solid fa-pen"></i>Vacuna</p>
+            <select name="v-type" id="v-type" class="custom-select">
+                    <option value="astra-zeneca">AstraZeneca</option>
+                    <option value="pfizer">Pfizer</option>
+                    <option value="sputnik-v">Sputnik V</option>
+                    <option value="moderna">Moderna</option>
+                </select>
+            <!--
+            <p class="content-bann">Moderna</p>
+            -->
+        </div>
+        <div class="boton-nav btn-bann">
+            <a href="#">Agendar Cita</a>
+        </div>
+    </div>
+
+    <section class="carrusel seccion contenedor">
+        <img src="recursos/aztra.jpg" alt="marcas">
+        <img src="recursos/sino.jpg" alt="marcas">
+        <img src="recursos/pfizer.jpg" alt="marcas">
+        <img src="recursos/mode.jpg" alt="marcas">
+    </section>
+
+    <section class="informacion contenedor">
+        <h2>Porque Vacunarte?</h2>
+        <p>Vacunarnos es la mejor manera de estar con los que queremos, ya que es la manera en la que podemos estar protegidos de los virus y estar seguros.</p>
+        <div class="tarjetas">
+            <div class="tarjeta">
+                <i class="fa-solid fa-grip-lines"></i>
+                <h3>Elimina los virus</h3>
+                <p>Las vacunas han demostrado ser eficientes contra los virus y esto evita infectarse del coronavirus</p>         
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-shield-blank"></i>
+                <h3>Minimiza los virus</h3>
+                <p>Las vacunas han demostrado que evitan la infección en un 90%</p>         
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-users"></i>
+                <h3>Unión de grupos</h3>
+                <p>La unión de vacunas hace que se pueda tener una mayor protección y mejor la vida.</p>         
+            </div>
+            <div class="tarjeta">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>Estadisticas</h3>
+                <p>Las vacunas han demostrado que el 80% de las personas que se vacunan ya no presentan graves daños al enfermarse</p>         
+            </div>
+        </div>
+    </section>
+    <section class="preparacion contenedor seccion">
+        <div class="cnt-preparation">
+            <div class="img-preparation">
+
+            </div>
+            <div class="contenido-preparacion">
+                <h2>Instrucciones antes de Vacunarte</h2>
+                <p>Muchas personas están deseando vacunarse contra la COVID-19, pero otras, comprensiblemente, tienen preguntas acerca del proceso de vacunación y de lo que deben esperar cuando les llegue su turno.</p>
+
+                <div class="acordeon">
+                    <button class="accordion">
+                        <div>
+                            <i class="fa-solid fa-square-xmark"></i>
+                            Evita Bebidas Alcoholicas
+                        </div>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>Solicite apoyo de personas que pueden estar dispuestas a escuchar y ayudar, como su cónyuge u otra persona importante o amigos abstemios.
+
+Su lugar de trabajo puede tener un Programa de Asistencia al Empleado (EAP, en inglés) donde usted puede buscar ayuda sin necesidad de contarle a nadie en el trabajo sobre su consumo de alcohol.
+
+</p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            Evita Estres 
+                        </div>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>Realizar actividades físicas todos los días es la mejor y más fácil manera de lidiar con el estrés. Al hacer ejercicio, su cerebro libera químicos que lo hacen sentir bien. También puede ayudarle con su energía reprimida o su frustración.</p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <i class="fa-solid fa-chart-column"></i>
+                            Comer Comida Saludable
+                        </div>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>Frutas. Granos integrales. Productos lácteos descremados o semidescremados. Una variedad de alimentos que contengan proteínas, como pescado, mariscos, carnes magras, aves, huevos, frijoles, chícharos (alverjas), semillas, nueces y productos derivados de la soya.</p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <i class="fa-solid fa-square-check"></i>
+                            Descansa Bien
+                        </div>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>No, en referencia a que no es un requisito para recibir la vacuna. Es indispensable el reposo absoluto, sobre todo porque efectos secundarios como el mareo o dolor de cabeza pudieran ocasionar algún accidente mientras se practica un ejercicio.</p>
+                    </div>
+
+                    <button class="accordion">
+                        <div>
+                            <i class="fa-solid fa-heart"></i>
+                            Actividades extras
+                        </div> 
+                        <i class="fa-solid fa-sort-down"></i>
+                    </button>
+                    <div class="panel">
+                        <p>No es recomendable que hagas otras cosas antes de ir a vacunarte.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto seccion contenedor">
+        <div class="cnt-contact">
+            <div class="ctn-ctc">
+                <h2>Contacto</h2>
+                <p>Contactanos y te atenderemos en menos de 24 horas para tu pronta atención y asi podras recibir tu vacuna y estar proteguida con VacunaMex</p>
+                <div class="cnt-tarjetas">
+                    <div class="cnt-tarjeta">
+                        <div class="contenido-trj">
+                            <div>
+                            <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div>
+                            <h3>Llamanos</h3>                            
+                            <p>+02112314514</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-celeste">Llama</a>
+                    </div>
+
+                    <div class="cnt-tarjeta">
+                        <div class="contenido-trj">
+                            <div>
+                            <i class="fa-solid fa-comment-dots"></i>
+                            </div>
+                            <div>
+                            <h3>Chat</h3>                            
+                            <p>02112314514</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-celeste">Chatea</a>
+                    </div>
+
+                    <div class="cnt-tarjeta">
+                        <div class="contenido-trj">
+                            <div>
+                            <i class="fa-solid fa-video"></i>
+                            </div>
+                            <div>
+                            <h3>Video Llamada</h3>                            
+                            <p>02112314514</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-celeste">Llamanos ahora</a>
+                    </div>
+
+                    <div class="cnt-tarjeta">
+                        <div class="contenido-trj">
+                            <div>
+                            <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                            <h3>Mensaje</h3>                            
+                            <p>02112314514</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn-celeste">Manda Mensaje</a>
+                    </div>
+                </div>
+            </div>
+            <div class="img-contact">
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="ctn-foot contenedor">
+            <div class="fot-logo"> 
+                <div class="logo">
+                    <p>VacunaMex</p>
+                </div>
+                <p class="leyenda">El mejor sitio para vacunación en México, el lugar en el que puedes confiuar y sentirte seguro.</p>
+            </div>
+            <div class="foot-menu">
+                <div class="ft-mnu">
+                    <h2>About</h2>
+                    <ul class="lista">
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Caracteristicas</a></li>
+                        <li><a href="#">Noticias & Blog</a></li>
+                    </ul>
+                </div>
+                <div class="ft-mnu">
+                    <h2>Empresa</h2>
+                    <ul class="lista">
+                        <li><a href="#">Como trabajamos nosotros?</a></li>
+                        <li><a href="#">Vacunación</a></li>
+                        <li><a href="#">Seguridad</a></li>
+                    </ul>
+                </div>
+                <div class="ft-mnu">
+                    <h2>Soporte</h2>
+                    <ul class="lista">
+                        <li><a href="#">FaQs</a></li>
+                        <li><a href="#">Centro de Soporte</a></li>
+                        <li><a href="#">Contactanos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy contenedor">
+            <p>Todos los derechos reservados VacunaMex 2022&copy;</p>
+            <div>
+                <p>Terminos & Condiciones</p>
+                <P>Politica de Privacidad</P>
+            </div>
+        </div>        
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
