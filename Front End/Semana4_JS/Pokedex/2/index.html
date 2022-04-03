@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>CourseIt Pokedex</title>
+</head>
+<body>
+<div class="pokedex">
+    <div class="columna-izq">
+        <div class="detalles">
+            <div class="detalles-circulo"></div>
+            <div class="detalles-rojo , detalles-circulos"></div>
+            <div class="detalles-amarillo , detalles-circulos"></div>
+            <div class="detalles-verde , detalles-circulos"></div>
+        </div>
+        <div class="columna-izq-screenborder">pokedex por ric
+            <div class="columna-izq-screen">
+                <ul class="screen-list">
+                    <li><h2>N°</h2></li>
+                    <li><h2>NAME</h2></li>
+                    <li><h2>HT</h2></li>
+                    <li><h2>WT</h2></li>
+                </ul>
+                <ul class="screen-list2">
+                    <li><h2 id="number">-</h2></li>
+                    <li><h2 id="name">-</h2></li>
+                    <li><h2 id="height">-</h2></li>
+                    <li><h2 id="weight">-</h2></li>
+                </ul>
+                <div class="sprite-cont"> 
+                        <img id="foto">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="columna-der">
+    <input type="text" id="pokemon">
+    <button onclick="fetchData()">SCAN</button>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
